@@ -11,9 +11,9 @@ The BitGuard is a various error detection and correction techniques. Takes input
 [![X][x-shield]][x-url]
 
 [//]: # (Version)
-<!-- Another Version is start V2.0.4 -->
+<!-- Another Version is start V1.1.0 -->
 <div>
-  <img src="https://img.shields.io/badge/Version-1.0.0-orange?logo=Git&logoColor=green" height="25"> <br>
+  <img src="https://img.shields.io/badge/Version-1.1.0-yellow?logo=Git&logoColor=green" height="25"> <br>
 
 ###
 </div>
@@ -42,16 +42,16 @@ The BitGuard is a various error detection and correction techniques. The applica
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [//]: # (Shields)
-[contributors-shield]: https://img.shields.io/github/contributors/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=blue&labelColor=gray&logo=github
+[contributors-shield]: https://img.shields.io/github/contributors/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit?style=flat&for-the-badge&color=blue&labelColor=gray&logo=github
 
 
-[forks-shield]: https://img.shields.io/github/forks/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=red&labelColor=gray&logo=trailforks
+[forks-shield]: https://img.shields.io/github/forks/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit?style=flat&for-the-badge&color=red&labelColor=gray&logo=trailforks
 
-[stars-shield]: https://img.shields.io/github/stars/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=green&labelColor=gray&logo=asterisk
+[stars-shield]: https://img.shields.io/github/stars/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit?style=flat&for-the-badge&color=green&labelColor=gray&logo=asterisk
 
-[issues-shield]: https://img.shields.io/github/issues/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=cyan&labelColor=gray&logo=issuu
+[issues-shield]: https://img.shields.io/github/issues/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit?style=flat&for-the-badge&color=cyan&labelColor=gray&logo=issuu
 
-[license-shield]: https://img.shields.io/github/license/nazmul-1117/Agriculture-Information-Service?style=flat&for-the-badge&color=ff4070&labelColor=gray&logoColor=ff4070&logo=unlicense
+[license-shield]: https://img.shields.io/github/license/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit?style=flat&for-the-badge&color=ff4070&labelColor=gray&logoColor=ff4070&logo=unlicense
 
 [x-shield]: https://img.shields.io/badge/X(Twitter)-@nazmul_1117-orange?logo=x&logoColor=blue
 
@@ -59,17 +59,17 @@ The BitGuard is a various error detection and correction techniques. The applica
 
 
 <!-- Markdown the Links -->
-[project-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/
+[project-url]: https://github.com/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit/
 
-[contributors-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/graphs/contributors
+[contributors-url]: https://github.com/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit/graphs/contributors
 
-[forks-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/forks
+[forks-url]: https://github.com/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit/forks
 
-[stars-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/stargazers
+[stars-url]: https://github.com/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit/stargazers
 
-[issues-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/issues
+[issues-url]: https://github.com/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit/issues
 
-[license-url]: https://github.com/nazmul-1117/Agriculture-Information-Service/blob/main/LICENSE.txt
+[license-url]: https://github.com/nazmul-1117/BitGuard-an-Error-Detection-and-Correction-Toolkit/blob/master/LICENSE.txt
 
 [x-url]: https://x.com/nazmul_1117
 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bitguard.controllers.about.AboutController">
+   <children>
+      <Label layoutX="349.0" layoutY="289.0" text="About Us">
+         <font>
+            <Font name="Arial Bold" size="64.0" />
+         </font></Label>
+   </children>
+</AnchorPane>
