@@ -3,6 +3,15 @@
 - All versions are available here
 - You can find updated to earlier
 ```
+## [1.2.0] - 2025-05-02
+### Added
+- Hamming Code
+- Implement MVC (Model-View-Controller)
+- Add CSS style in hamming code window
+- Add emojis
+
+### Fixed
+- Git ignore fixed
 
 ## [1.1.0] - 2025-05-01
 ### Added

@@ -31,4 +31,6 @@ module com.bitguard.bitguard {
 
     exports com.bitguard.controllers.about;
     opens com.bitguard.controllers.about to javafx.fxml;
+
+    exports com.bitguard.models.hammingModel;
 }

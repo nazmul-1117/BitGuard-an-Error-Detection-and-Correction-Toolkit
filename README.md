@@ -11,9 +11,9 @@ The BitGuard is a various error detection and correction techniques. Takes input
 [![X][x-shield]][x-url]
 
 [//]: # (Version)
-<!-- Another Version is start V1.1.0 -->
+<!-- Another Version is start V1.2.0 -->
 <div>
-  <img src="https://img.shields.io/badge/Version-1.1.0-yellow?logo=Git&logoColor=green" height="25"> <br>
+  <img src="https://img.shields.io/badge/Version-1.2.0-red?logo=Git&logoColor=green" height="25"> <br>
 
 ###
 </div>
