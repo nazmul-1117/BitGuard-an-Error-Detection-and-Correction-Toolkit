@@ -30,7 +30,7 @@ public class hammingController implements Initializable {
     private final ToggleGroup parityToggleGroup = new ToggleGroup();
     private final ToggleGroup codingTypeToggleGroup = new ToggleGroup();
 
-    private void initGenderToggle() {
+    private void initToggle() {
         senderParityEvenRB.setToggleGroup(parityToggleGroup);
         senderParityOddRB.setToggleGroup(parityToggleGroup);
 
@@ -54,7 +54,7 @@ public class hammingController implements Initializable {
         receiverDataTF.setFont(new Font(36));
 
         errorMessage.setFont(new Font(36));
-        errorMessage.setText("Fuck You..! 👃");
+        errorMessage.setText("No Error Founded..! 🥰");
     }
 
     private void algorithmRun(){
@@ -85,6 +85,6 @@ public class hammingController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        initGenderToggle();
+        initToggle();
     }
 }

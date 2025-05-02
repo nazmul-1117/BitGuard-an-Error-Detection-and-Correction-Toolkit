@@ -13,9 +13,9 @@ public class HammingModel {
 
     // Method to encode data using Hamming Code
     public static String encodeHammingCode(String data, String parityType) {
-        int m = data.length();  // Number of data bits
-        int p = calculateParityBits(m);  // Number of parity bits
-        int n = m + p;  // Total length of the codeword (data + parity bits)
+        int m = data.length();
+        int p = calculateParityBits(m);
+        int n = m + p;
 
         // Initialize an array to hold the codeword
         char[] codeword = new char[n];
@@ -24,7 +24,7 @@ public class HammingModel {
         int dataIndex = 0;
         for (int i = 0; i < n; i++) {
             if ((i & (i + 1)) == 0) {
-                codeword[i] = '0';  // Placeholder for parity bits
+                codeword[i] = '0';
             } else {
                 codeword[i] = data.charAt(dataIndex++);
             }

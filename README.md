@@ -1,5 +1,5 @@
 # BitGuard - an Error Detection and Correction Toolkit
-The BitGuard is a various error detection and correction techniques. Takes input from users and apply various error detection and correction technique based on users' selection.
+The BitGuard is a various error detection and correction techniques. Take input from users and apply various error detection and correction technique based on users' selection.
 
 ## Overview
 <!-- PROJECT SHIELDS -->
@@ -13,7 +13,7 @@ The BitGuard is a various error detection and correction techniques. Takes input
 [//]: # (Version)
 <!-- Another Version is start V1.2.0 -->
 <div>
-  <img src="https://img.shields.io/badge/Version-1.2.0-red?logo=Git&logoColor=green" height="25"> <br>
+  <img src="https://img.shields.io/badge/Version-1.3.1-orange?logo=Git&logoColor=green" height="25" alt="GiHub Version"> <br>
 
 ###
 </div>
@@ -23,10 +23,14 @@ The BitGuard is a various error detection and correction techniques. Takes input
 The BitGuard is a various error detection and correction techniques. The application will allow users to input data, apply different error detection and correction methods (including Hamming code, CRC, Checksum, and one other technique), simulate errors in the data, and observe how these techniques detect or correct those errors. The application will have a user-friendly interface, with clear input and output displays, and will provide a hands-on understanding of how these error detection and correction methods work.
 
 ## Features
-1. Hamming Code
-2. Cyclic Redundancy Check (CRC)
-3. CheckSUm
-4. Another One...
+1. ![Static Badge](https://img.shields.io/badge/Home-0%25-cb410b)
+2. ![Static Badge](https://img.shields.io/badge/Hamming_Code-50%25-4a5d23)
+3. ![Static Badge](https://img.shields.io/badge/CRC-50%25-blue)
+4. ![Static Badge](https://img.shields.io/badge/ChecksUm-0%25-800080)
+5. ![Static Badge](https://img.shields.io/badge/Stuff_DeStuff-0%25-008000)
+6. ![Static Badge](https://img.shields.io/badge/Manual-0%25-126180 )
+7. ![Static Badge](https://img.shields.io/badge/About_Us-0%25-7f1734)
+
 
 ## Tools and Technique
 

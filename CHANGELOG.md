@@ -3,6 +3,20 @@
 - All versions are available here
 - You can find updated to earlier
 ```
+
+## [1.3.1] - 2025-05-02
+### Added
+- CRC
+
+### Fixed
+- Git ignore fixed
+- Hamming Code fix
+- Hamming Code Font Fixed
+- Logo changed
+
+###
+
+
 ## [1.2.0] - 2025-05-02
 ### Added
 - Hamming Code
