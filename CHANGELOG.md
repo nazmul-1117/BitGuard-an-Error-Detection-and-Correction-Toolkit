@@ -4,6 +4,16 @@
 - You can find updated to earlier
 ```
 
+## [1.4.0] - 2025-05-09
+### Added
+- Checksum
+- Helper Function
+
+### Fixed
+- Nothing to fix
+
+###
+
 ## [1.3.1] - 2025-05-02
 ### Added
 - CRC

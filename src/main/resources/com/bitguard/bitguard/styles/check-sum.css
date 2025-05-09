@@ -1,0 +1,13 @@
+.intro{
+    -fx-background-color: transparent;
+    -fx-border-color: red;
+    /*-fx-background-color: rgba(5,64,26 0.1);*/
+    -fx-border-radius: 20px;
+}
+
+.content{
+        -fx-background-color: transparent;
+        -fx-border-color: green;
+        /*-fx-background-color: rgba(5,64,64 1);*/
+        -fx-border-radius: 20px;
+}
