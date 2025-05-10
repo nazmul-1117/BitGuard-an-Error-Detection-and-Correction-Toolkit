@@ -6,6 +6,18 @@
 
 
 
+
+## [1.7.0] - 2025-05-10
+### Added
+- Manual Option
+- User Guide
+
+### Fixed
+- Nothing To Fix
+
+###
+
+
 ## [1.6.0] - 2025-05-10
 ### Added
 - About Us

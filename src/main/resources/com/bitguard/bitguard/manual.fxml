@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="700.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bitguard.controllers.manual.manualController">
    <children>
-      <Label layoutX="342.0" layoutY="305.0" text="Manual">
+      <Label fx:id="hammingCodeLB" prefHeight="349.0" prefWidth="511.0" styleClass="hamming-code" stylesheets="@styles/manual.css" textFill="#00ff55" wrapText="true">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
          <font>
-            <Font name="Arial Bold" size="72.0" />
+            <Font name="Cascadia Code Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="crcLB" layoutX="512.0" prefHeight="349.0" prefWidth="511.0" styleClass="crc" stylesheets="@styles/manual.css" textFill="#d9ff00" wrapText="true">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font name="Cascadia Code Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="checksumLB" layoutY="350.0" prefHeight="349.0" prefWidth="511.0" styleClass="checksum" stylesheets="@styles/manual.css" textFill="#00fbff" wrapText="true">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font name="Cascadia Code Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="stuffLB" layoutX="512.0" layoutY="350.0" prefHeight="349.0" prefWidth="511.0" styleClass="stuff" stylesheets="@styles/manual.css" textFill="#ff0089" wrapText="true">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <font>
+            <Font name="Cascadia Code Regular" size="18.0" />
          </font>
       </Label>
    </children>
