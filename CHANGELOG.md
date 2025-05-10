@@ -4,6 +4,20 @@
 - You can find updated to earlier
 ```
 
+
+
+## [1.6.0] - 2025-05-10
+### Added
+- About Us
+- Developer 1 Info (Nazmul)
+- Developer 2 Info (Fuad)
+- Add PNGs and GIFs
+
+### Fixed
+- Nothing To Fix
+
+###
+
 ## [1.5.0] - 2025-05-10
 ### Added
 - Bit Stuffing
