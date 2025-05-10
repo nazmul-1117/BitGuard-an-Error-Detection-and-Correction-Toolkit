@@ -4,6 +4,15 @@
 - You can find updated to earlier
 ```
 
+## [1.4.1] - 2025-05-10
+### Added
+- Home Option
+
+### Fixed
+- Home option Completed
+
+###
+
 ## [1.4.0] - 2025-05-09
 ### Added
 - Checksum
