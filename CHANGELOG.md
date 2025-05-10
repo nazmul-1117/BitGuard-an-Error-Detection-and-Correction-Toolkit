@@ -4,6 +4,18 @@
 - You can find updated to earlier
 ```
 
+## [1.5.0] - 2025-05-10
+### Added
+- Bit Stuffing
+- Bit De-Stuffing
+- Byte Stuffing
+- Byte De-Stuffing
+
+### Fixed
+- Nothing To Fix
+
+###
+
 ## [1.4.1] - 2025-05-10
 ### Added
 - Home Option
