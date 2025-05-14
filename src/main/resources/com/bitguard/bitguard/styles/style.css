@@ -21,6 +21,13 @@
     -fx-background-position: center center;
 }
 
+.typing-image {
+    -fx-background-image: url("file:src/main/resources/com/bitguard/bitguard/images/typing.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
 
 .iconAdd{
     -fx-background-image: url("file:src/main/java/images/logo.png");
