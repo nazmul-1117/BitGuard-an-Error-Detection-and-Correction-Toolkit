@@ -7,6 +7,16 @@
 
 
 
+## [1.7.1] - 2025-05-14
+### Added
+- GIF
+
+### Fixed
+- Hamming Code
+
+###
+
+
 ## [1.7.0] - 2025-05-10
 ### Added
 - Manual Option

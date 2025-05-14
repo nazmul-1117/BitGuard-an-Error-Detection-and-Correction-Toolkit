@@ -11,9 +11,9 @@ The BitGuard is a various error detection and correction techniques. Take input 
 [![X][x-shield]][x-url]
 
 [//]: # (Version)
-<!-- Another Version is start V1.7.0 -->
+<!-- Another Version is start V1.7.1 -->
 <div>
-  <img src="https://img.shields.io/badge/Version-1.7.0-214946?logo=Git&logoColor=green" height="25" alt="GiHub Version"> <br>
+  <img src="https://img.shields.io/badge/Version-1.7.1-blue?logo=Git&logoColor=green" height="25" alt="GiHub Version"> <br>
 
 ###
 </div>
@@ -24,7 +24,7 @@ The BitGuard is a various error detection and correction techniques. The applica
 
 ## Features
 1. ![Static Badge](https://img.shields.io/badge/Home-90%25-cb410b)
-2. ![Static Badge](https://img.shields.io/badge/Hamming_Code-50%25-4a5d23)
+2. ![Static Badge](https://img.shields.io/badge/Hamming_Code-90%25-4a5d23)
 3. ![Static Badge](https://img.shields.io/badge/CRC-50%25-blue)
 4. ![Static Badge](https://img.shields.io/badge/ChecksUm-75%25-800080)
 5. ![Static Badge](https://img.shields.io/badge/Stuff_DeStuff-90%25-008000)

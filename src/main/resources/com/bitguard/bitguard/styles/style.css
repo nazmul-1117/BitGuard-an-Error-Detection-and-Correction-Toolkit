@@ -7,6 +7,21 @@
     /*-fx-background-color: #292929*/
 }
 
+.kiss-image {
+    -fx-background-image: url("file:src/main/resources/com/bitguard/bitguard/images/kiss.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.slap-image {
+    -fx-background-image: url("file:src/main/resources/com/bitguard/bitguard/images/slap.gif");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+
 .iconAdd{
     -fx-background-image: url("file:src/main/java/images/logo.png");
     -fx-background-repeat: no-repeat;
