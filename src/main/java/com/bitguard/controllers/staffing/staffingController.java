@@ -8,6 +8,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.layout.Pane;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -20,6 +21,7 @@ public class staffingController implements Initializable {
     public JFXTextArea inputDataTA;
     public JFXTextArea resultDataTA;
     public Label errorMessageLB;
+    public Pane errorPicPane;
 
     private String actualData, stuffType, method;
     private String resultData;
@@ -40,7 +42,7 @@ public class staffingController implements Initializable {
 
     private void collectData(){
 
-        actualData = inputDataTA.getText().trim();
+        actualData = inputDataTA.getText().trim().toUpperCase();
         stuffType = ((JFXRadioButton) stuffTypeToggleGroup.getSelectedToggle()).getText();
         method = ((JFXRadioButton) methodToggleGroup.getSelectedToggle()).getText();
 
@@ -53,10 +55,15 @@ public class staffingController implements Initializable {
     }
 
     private void setData(){
+
+        errorPicPane.getStyleClass().removeAll();
+        errorPicPane.getStyleClass().remove("typing-image");
+
         String errorMessage = stuffType + " " + method + " " + "Successfully Completed 😋";
 
         resultDataTA.setText(resultData);
         errorMessageLB.setText(errorMessage);
+        errorPicPane.getStyleClass().add("kiss-image");
 
     }
 
@@ -98,6 +105,7 @@ public class staffingController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         initToggle();
+        errorPicPane.getStyleClass().add("typing-image");
 
     }
 }

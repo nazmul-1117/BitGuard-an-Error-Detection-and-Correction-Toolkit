@@ -45,6 +45,8 @@ public class hammingController implements Initializable {
 
     private void setData(){
 
+        errorPic.getStyleClass().remove("typing-image");
+
         receiverDataTF.setText(resultData);
         receiverDataTF.setFont(new Font(36));
 
@@ -95,9 +97,9 @@ public class hammingController implements Initializable {
         System.out.println("Result: " + resultData);
     }
 
-
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         initToggle();
+        errorPic.getStyleClass().add("typing-image");
     }
 }

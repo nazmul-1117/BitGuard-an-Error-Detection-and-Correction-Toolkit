@@ -6,6 +6,21 @@
 
 
 
+
+## [2.0.1]✅ - 2025-05-16
+### Added
+- GIF on Home
+- GIF on Stuffing, De-Stuffing
+
+### Fixed
+- Home
+- Stuffings, Dde-Stuffings
+- Readme
+
+###
+
+
+
 ## [1.7.3] - 2025-05-15
 ### Added
 - GIF

@@ -4,7 +4,6 @@ public class HammingModel {
 
     public static int errorFoundPosition;
 
-    // Calculate required parity bits for data bits
     public static int calculateParityBits(int m) {
         int p = 0;
         while ((1 << p) < (m + p + 1)) {
@@ -13,7 +12,6 @@ public class HammingModel {
         return p;
     }
 
-    // Calculate how many parity bits are present based on total codeword length
     private static int calculateParityBitsFromCodewordLength(int n) {
         int p = 0;
         while ((1 << p) < (n + 1)) {
@@ -22,12 +20,10 @@ public class HammingModel {
         return p;
     }
 
-    // Utility: Check if a number is a power of two
     private static boolean isPowerOfTwo(int x) {
         return (x & (x - 1)) == 0 && x != 0;
     }
 
-    // Encode data using Hamming Code (even/odd parity)
     public static String encodeHammingCode(String data, String parityType) {
         int m = data.length();
         int p = calculateParityBits(m);
@@ -65,7 +61,6 @@ public class HammingModel {
         return new String(codeword);
     }
 
-    // Detect and correct single-bit errors, print error position
     public static String detectAndCorrectErrors(String codeword, String parityType) {
         int n = codeword.length();
         int p = calculateParityBitsFromCodewordLength(n);
@@ -102,7 +97,6 @@ public class HammingModel {
         return codeword;
     }
 
-    // Extract original data bits from a Hamming codeword
     public static String extractDataBits(String codeword) {
         StringBuilder data = new StringBuilder();
         for (int i = 1; i <= codeword.length(); i++) {
@@ -113,29 +107,4 @@ public class HammingModel {
         return data.toString();
     }
 
-    // Main method for demonstration
-//    public static void main(String[] args) {
-//        String data = "0101";
-//        String parity = "even";
-//
-//        System.out.println("Original Data: " + data);
-//
-//        // Encoding
-//        String encoded = encodeHammingCode(data, parity);
-//        System.out.println("Encoded Hamming Code: " + encoded);
-//
-//        // Simulate single-bit error (flip bit at index 2)
-//        char[] tampered = encoded.toCharArray();
-//        tampered[2] = (tampered[2] == '1') ? '0' : '1';
-//        String received = new String(tampered);
-//        System.out.println("Received with Error: " + received);
-//
-//        // Detect and Correct
-//        String corrected = detectAndCorrectErrors(received, parity);
-//        System.out.println("Corrected Codeword: " + corrected);
-//
-//        // Extract data
-//        String original = extractDataBits(corrected);
-//        System.out.println("Extracted Data: " + original);
-//    }
 }
